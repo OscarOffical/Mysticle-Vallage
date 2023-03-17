@@ -16,12 +16,12 @@ public class CanDragFont : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        _Text.color = new Color(255, 176, 0, 255);
+        _Text.color = new Color(255, 208, 0, 255);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        _Text.color = new Color(255, 255, 255, 255);
+        _Text.color = new Color(255, 208, 255, 255);
     }
 
 

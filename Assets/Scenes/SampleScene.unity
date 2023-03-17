@@ -342,7 +342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882305974}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.6887, y: -1.9559, z: 0}
+  m_LocalPosition: {x: -4.416, y: -1.984, z: 0}
   m_LocalScale: {x: 1.4214225, y: 5.9502177, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -514,11 +514,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1137deaf0f78ffc42bb211468d7d2eb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 2025837446}
-  groundCheck: {fileID: 530480721}
-  groundLayer:
+  _rigidbody: {fileID: 0}
+  _groundCheck: {fileID: 0}
+  _groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
 --- !u!61 &2025837448
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -594,7 +594,7 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 1.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2025837450
@@ -625,4 +625,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71cc5109b76235949adfcbddf4a52a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 2025837446}
+  _rigidbody: {fileID: 0}
