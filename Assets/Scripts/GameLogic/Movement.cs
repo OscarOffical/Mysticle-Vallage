@@ -48,4 +48,8 @@ public class Movement : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+    private void Move()
+    {
+        
+    }
 }
