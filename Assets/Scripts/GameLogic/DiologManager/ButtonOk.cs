@@ -7,6 +7,8 @@ public class ButtonOk : MonoBehaviour
     public GameObject WhatDestroy;
     public GameObject Player;
     public GameObject Animation;
+  
+
     
     private void Awake()
     {

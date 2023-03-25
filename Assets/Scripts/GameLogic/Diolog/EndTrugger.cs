@@ -10,6 +10,7 @@ public class EndTrugger : MonoBehaviour
     public GameObject Panel;
     bool CanNext= false;
     public float StartNextLevel;
+    public KeyboardMAnager keyboardMAnager;
 
     private void Update()
     {
@@ -21,6 +22,7 @@ public class EndTrugger : MonoBehaviour
         {
             if (collision.gameObject.tag == "Player")
             {
+                keyboardMAnager.enabled = false;
                 Panel.SetActive(true);
                 CanNext = true;
 
