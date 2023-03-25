@@ -5708,6 +5708,7 @@ GameObject:
   - component: {fileID: 1162807225}
   - component: {fileID: 1162807228}
   - component: {fileID: 1162807223}
+  - component: {fileID: 1162807229}
   m_Layer: 5
   m_Name: ButtonYes
   m_TagString: Untagged
@@ -5792,8 +5793,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1162807228}
-        m_TargetAssemblyTypeName: ButtonExitYes, Assembly-CSharp
+      - m_Target: {fileID: 1162807229}
+        m_TargetAssemblyTypeName: ButtunExit, Assembly-CSharp
         m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
@@ -5852,6 +5853,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7578e640248678344aeea4a452673cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1162807229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162807221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84f5cc3bbb6b314e8014ecfebdc0167, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1163264016

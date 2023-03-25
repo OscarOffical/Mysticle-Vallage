@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 918c995be108a034db6bdd383c6c7ec5
-      internalID: 386064761
+      spriteID: 4d890f3f9ad704846a380355318ee558
+      internalID: -1836092304
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "\u041A\u0433\u044210_0": 386064761
+      "\u041A\u0433\u044210_0": -1836092304
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
