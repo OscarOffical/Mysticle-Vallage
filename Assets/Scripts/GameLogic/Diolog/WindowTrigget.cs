@@ -5,10 +5,9 @@ using UnityEngine;
 public class WindowTrigget : MonoBehaviour
 {
     public GameObject WhatWinsowOpen;
-    public GameObject Animation;
     public AllWeapen allWeapen;
-    public Pause pause;
-
+    public GameObject Player;
+ 
     
 
 
@@ -18,10 +17,14 @@ public class WindowTrigget : MonoBehaviour
         {
             if (collision.gameObject.tag == "Player")
             {
-                pause.PauseTrue();
+              
                 WhatWinsowOpen.SetActive(true);
-                allWeapen.Lantern = true;         
-                Animation.SetActive(false);
+                Player.GetComponent<KeyboardMAnager>().enabled = false;
+                Player.GetComponent<PlayerControler>().enabled = false;     
+               
+                Player.GetComponent<Pause>().PauseTrue();
+
+                
                 Destroy(gameObject);
              
 

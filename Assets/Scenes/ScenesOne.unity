@@ -2663,9 +2663,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WhatWinsowOpen: {fileID: 1721594852}
-  Animation: {fileID: 981734269}
-  allWeapen: {fileID: 0}
-  pause: {fileID: 2045701421}
+  allWeapen: {fileID: 2045701417}
+  Player: {fileID: 2045701405}
 --- !u!1 &556126998
 GameObject:
   m_ObjectHideFlags: 0
@@ -10779,6 +10778,7 @@ GameObject:
   - component: {fileID: 2000190871}
   - component: {fileID: 2000190870}
   - component: {fileID: 2000190869}
+  - component: {fileID: 2000190873}
   m_Layer: 5
   m_Name: ButtonOk
   m_TagString: Untagged
@@ -10866,9 +10866,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2000190869}
-        m_TargetAssemblyTypeName: ButtonOk, Assembly-CSharp
-        m_MethodName: Ok
+      - m_Target: {fileID: 2000190873}
+        m_TargetAssemblyTypeName: WindowExit, Assembly-CSharp
+        m_MethodName: Exit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10916,6 +10916,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000190867}
   m_CullTransparentMesh: 1
+--- !u!114 &2000190873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000190867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e3a77ede74375147a99dc38afb197fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WhatWinsowOpen: {fileID: 534344338}
+  allWeapen: {fileID: 2045701417}
+  Player: {fileID: 2045701405}
 --- !u!1 &2014847899
 GameObject:
   m_ObjectHideFlags: 0
@@ -11758,9 +11773,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WhatWinsowOpen: {fileID: 1721594852}
-  Animation: {fileID: 981734269}
   allWeapen: {fileID: 2045701417}
-  pause: {fileID: 0}
+  Player: {fileID: 2045701405}
 --- !u!61 &2132918953
 BoxCollider2D:
   m_ObjectHideFlags: 0
