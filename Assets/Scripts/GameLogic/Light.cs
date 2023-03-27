@@ -16,6 +16,7 @@ public class Light : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        EndtLight = Random.Range(0.3f , 0.9f);
         for (int i = 0; i < Lights.Length; i++)
         {
 
@@ -29,7 +30,9 @@ public class Light : MonoBehaviour
             }
             else
             {
+
                 Lights[i].gameObject.SetActive(true);
+               
                 StartLight -= Time.deltaTime;
             }
         }

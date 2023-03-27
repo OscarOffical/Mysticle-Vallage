@@ -42,11 +42,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: gan
-    uniqueID: 2326643897
+  - name: BG
+    uniqueID: 516247211
     locked: 0
-  - name: player
-    uniqueID: 126807051
+  - name: Platform
+    uniqueID: 2292992561
     locked: 0
   - name: UI
     uniqueID: 228803349

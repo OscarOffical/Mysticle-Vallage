@@ -2256,7 +2256,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c8223cfc3ca1e0d4f95c153baf8723bc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b835714b8f2e6084e9bb27d7c8a71c49, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3511,7 +3511,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.97, y: 4.66}
+  m_AnchoredPosition: {x: 8.97, y: 8.106133}
   m_SizeDelta: {x: 15.3, y: 11.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &743212646
@@ -5270,7 +5270,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Setting
+  m_text: ' Settings'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4355048602e64284cb708db8838f93b7, type: 2}
   m_sharedMaterial: {fileID: -4682828473707257617, guid: 4355048602e64284cb708db8838f93b7, type: 2}
@@ -6313,7 +6313,7 @@ GameObject:
   - component: {fileID: 1246901641}
   - component: {fileID: 1246901640}
   m_Layer: 5
-  m_Name: Setting
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
